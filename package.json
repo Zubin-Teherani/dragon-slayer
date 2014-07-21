@@ -1,0 +1,12 @@
+{
+	"name": "my-lesson",
+	"version": "0.0.1",
+	"description": "A lesson demonstrating JavaScript fundementals",
+        "main": "lesson",
+	"dependencies": {
+		"prompt": "~0.2.13"
+	},
+	"engines": {
+		"node": "*"
+	}
+}
