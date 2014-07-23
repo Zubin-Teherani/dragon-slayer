@@ -1,4 +1,4 @@
-My Lesson
+Building your own Dragon Slayer game!
 =======================
 This lesson will teach you how to build a simple Dragon Slayer app.  This app uses cool technology like Node.js and Javascript.
 
@@ -49,7 +49,6 @@ Now that we create the Character object, we need to make a 'dragon' and 'user' t
 var dragon = new Character();
 var user = new Character();
 ```
-Replace instance with dragon and instance2 with user
 
 # Create welcome message and start writing the function that will run your app!
 
@@ -107,9 +106,13 @@ function runApp() {
   }
 ```
 Make sure at the very end you call your runApp function:
+```javascript
 	#runApp();
+```
 
 **Run the App** Switch to the command line, move into the master folder, and go ahead and run the app like so:
 And this is how you put a box around your text:
-		# cd master
-    # ./my-lesson.js
+```javascript
+	# cd master
+  # ./my-lesson.js
+```
