@@ -107,12 +107,11 @@ function runApp() {
 ```
 Make sure at the very end you call your runApp function:
 ```javascript
-	#runApp();
+	runApp();
 ```
 
-**Run the App** Switch to the command line, move into the master folder, and go ahead and run the app like so:
+**Run the App** Switch to the command line and go ahead and run the app like so:
 And this is how you put a box around your text:
 ```javascript
-	# cd master
-  # ./my-lesson.js
+  ./my-lesson.js
 ```
