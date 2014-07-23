@@ -7,7 +7,7 @@ This lesson will teach you how to build a simple Dragon Slayer app.  This app us
 ### On runnable.com:
 Create a new node app, and from the terminal, enter or cut and paste the following commands, then press enter or return:
     
-    git clone https://github.com/zubin-teherani/dragon-slayer.git spark && spark/setup.sh
+    git clone https://github.com/zubin-teherani/dragon-slayer.git
     
 ...some text will fly by as the repository is cloned locally and the project is setup.
 
@@ -16,7 +16,7 @@ Great, you're set to roll!
 
 # Importing the prompt library
 
-Let's get started!  Click the my-lesson.js file.  This is where we will be entering in al our code.
+Let's get started!  Click the dragon-slayer folder, and choose the my-lesson.js file.  This is where we will be entering in all our code.
 
 **TODO 1 :** The first thing we need to do is import a library called "prompt".  A library is a bunch of code that someone else wrote and they are letting us use for free :)  This is how importing a library is formatted:
 
@@ -113,5 +113,6 @@ Make sure at the very end you call your runApp function:
 **Run the App** Switch to the command line and go ahead and run the app like so:
 And this is how you put a box around your text:
 ```javascript
+	cd dragon-slayer
   ./my-lesson.js
 ```

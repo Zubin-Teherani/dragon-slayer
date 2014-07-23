@@ -2,24 +2,19 @@
 
 // TODO 1 : First, important the prompt and libary to receive inputs from our users
 
-var prompt = require('prompt');
+
 
 // TODO 2 : Next, let's create a character object that will have the properties for our dragon and knight
 
-function Character(args) {
-  this.life = 10;
-  this.power = 5;
-};
+
 
 // TODO 3 : Now, create our dragon and user!
 
-var dragon = new Character();
-var user = new Character();
+
 
 // TODO 4 : Create a variable called welcomeMessage to great everyone to our game
 
-var welcomeMessage = "Welcome to the dragon slayer!  The dragon is quick approaching.  What would you like to do?  Fight, protect, or run?"
-console.log(welcomeMessage);
+
 
 // TODO 5 : Now, create our function that will run our app.  Entitle it runApp()
 
@@ -30,7 +25,7 @@ function runApp() {
       prompt.start();
       prompt.get(['decision'], function(err, result){
         console.log("You decided to " + result.decision)
-        
+
 // TODO 7 : Write a switch statement to filter our answers.  We've written the fight, protect, and run statements.  Can you write the default one?
 
         switch (result.decision) {
@@ -55,18 +50,18 @@ function runApp() {
           case 'run':
             user.life = 0;
             console.log("The dragon killed you.  The end.");
-            process.exit(0);            
+            process.exit(0);
             break;
           default:
-            console.log("Uh, that's not an option.  Choose fight, protect, or run.");
-            runApp();
-            break;
+            //Use the console.log() function to tell them to choose fight, protect, or run.
+            
+            //Run our runApp() function
+            
+            //Don't forget a break sequence!
+            
         }
     
-    }); 
+    });
   }
 
 // TODO 8 : Go ahead and run our app!
-
-runApp();
-
