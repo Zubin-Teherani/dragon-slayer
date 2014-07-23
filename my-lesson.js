@@ -20,7 +20,7 @@
 
 function runApp() {
       
-// TODO 6 : Start the prompt and set it to receive the value "decision".   Use the decision to guide our app logic.
+// TODO 6 : Start the prompt and set it to receive the value "decision".   Use the decision to guide our app logic
       
       prompt.start();
       prompt.get(['decision'], function(err, result){
@@ -55,9 +55,9 @@ function runApp() {
           default:
             //Use the console.log() function to tell them to choose fight, protect, or run.
             
-            //Run our runApp() function
+            //Use our runApp() function to ask the user for another input
             
-            //Don't forget a break sequence!
+            //Don't forget a break!
             
         }
     

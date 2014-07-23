@@ -66,7 +66,7 @@ function runApp() {
     }); 
   }
 
-// TODO 8 : Go ahead and run our app!
+// TODO 8 : Make sure you call our runApp() function!
 
 runApp();
 

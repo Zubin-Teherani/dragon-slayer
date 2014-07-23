@@ -32,16 +32,16 @@ Let's get started!  Click the dragon-slayer folder, and choose the my-lesson.js 
 Next, we have to create a Character object that will serve as general outline for our dragon and user (that's you!).  We will give the Character object the same characteristics (in coding characteristics are called properties) - life and power.
 
 ```javascript
-// TODO 2 : Next, let's create a character object that will have the properties for our dragon and knight
+// TODO 2 : Next, let's create a Character object that will have the properties for our dragon and user
 
-function Object(args){
+function Character(args){
 	this.life = 10;
 	this.power = 5;
 };
 ```
 
 #Create a dragon and user instance from the Character object
-Now that we create the Character object, we need to make a 'dragon' and 'user' that have the same properties of what we outlined.
+Now that we created the Character object, we need to make a 'dragon' and 'user' that have the same properties of what we outlined.
 
 ```javascript
 // TODO 3 : Now, create our dragon and user!
@@ -52,7 +52,7 @@ var user = new Character();
 
 # Create welcome message and start writing the function that will run your app!
 
-We are going to start our app by welcoming the user.  Simply create a variable called welcomeMessage to welcome our user.  Afterwards, we are going to use console.log() function to print it to the screen. 
+We are going to start our app by welcoming the user.  Simply create a variable called welcomeMessage to welcome our user.  Afterwards, we are going to use the console.log() function to print it to the screen. 
 
 ```javascript
 // TODO 4 : Create a variable called welcomeMessage to greet everyone to our game
