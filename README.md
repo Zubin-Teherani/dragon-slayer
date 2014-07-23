@@ -55,8 +55,10 @@ var user = new Character();
 We are going to start our app by welcoming the user.  Simply create a variable called welcomeMessage to welcome our user.  Afterwards, we are going to use console.log() function to print it to the screen. 
 
 ```javascript
+// TODO 4 : Create a variable called welcomeMessage to greet everyone to our game
+
 var welcomeMessage = "Welcome to the dragon slayer!  The dragon is quick approaching.  What would you like to do?  Fight, protect, or run?"
-console.log(welcomeMessage);
+console.log(welcomeMessage)
 ```
 
 Next we are going to start writing our function!  First we are going to use the prompt library we imported at the beginning to run a prompt.  Then we are going to write a function that will handle the logic of everything
