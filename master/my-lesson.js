@@ -1,27 +1,27 @@
 #!/usr/bin/env node
 
-// TODO 1 : First, important the prompt and libary to receive inputs from our users
+// TODO 1 : First, import the prompt library so we can receive inputs from our users
 
-var prompt = require('prompt')
+var prompt = require('prompt');
 
-// TODO 2 : Next, let's create a character object that will have the properties for our dragon and knight
+// TODO 2 : Next, let's create a character object that will have the properties for our dragon and user
 
 function Character(args) {
   this.life = 10;
   this.power = 5;
-}; 
+};
 
-// TODO 3 : Now, create our dragon and Knight!
+// TODO 3 : Now, create our dragon and user!
 
 var dragon = new Character();
 var user = new Character();
 
-// TODO 4 : Create a variable called welcomeMessage to great everyone to our game
+// TODO 4 : Create a variable called welcomeMessage to greet everyone to our game
 
 var welcomeMessage = "Welcome to the dragon slayer!  The dragon is quick approaching.  What would you like to do?  Fight, protect, or run?"
 console.log(welcomeMessage)
 
-// TODO 5 : Now, create our function that will run our app.  Entitle it runApp()
+// TODO 5 : Now, create the function that will run our app.  Call it runApp()
 
 function runApp() {
       

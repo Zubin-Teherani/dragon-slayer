@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-// TODO 1 : First, important the prompt and libary to receive inputs from our users
+// TODO 1 : First, import the prompt libary, so we can receive inputs from our users
 
 
 
-// TODO 2 : Next, let's create a character object that will have the properties for our dragon and knight
+// TODO 2 : Next, let's create a Character object that will have the properties for our dragon and user
 
 
 
@@ -12,15 +12,15 @@
 
 
 
-// TODO 4 : Create a variable called welcomeMessage to great everyone to our game
+// TODO 4 : Create a variable called welcomeMessage to greet everyone to our game
 
 
 
-// TODO 5 : Now, create our function that will run our app.  Entitle it runApp()
+// TODO 5 : Now, create our function that will run our app.  Call it runApp()
 
 function runApp() {
       
-// TODO 6 : Start the prompt and set it to receive the value "decision".   Use the decision to guide our app logic
+// TODO 6 : Start the prompt and set it to receive the value "decision".   Use the decision to guide our app logic.
       
       prompt.start();
       prompt.get(['decision'], function(err, result){
